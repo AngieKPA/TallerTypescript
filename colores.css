@@ -1,0 +1,14 @@
+td {
+    background-color: lightgray;
+}
+
+header {
+    background-color: rgba(21, 127, 197, 0.466);
+    font-weight: bold;
+}
+
+header img {
+    margin-right: 10px;
+    width: 50px;
+    height: auto;
+}
