@@ -13,21 +13,25 @@
 <body>
     <header> <img src="https://t3.ftcdn.net/jpg/04/51/58/76/360_F_451587634_iVJKobsbjLpbtBY0HTkZ2tzgUVGHfzEU.jpg" class="img-fluid"
             alt="Trulli" /> Tv Series</header>
-   <div>
-     <table class="table">
-         <thead class="thead-dark">
-             <tr>
-                 <th>#</th>
-                 <th>Name</th>
-                 <th>Channel</th>
-                 <th>Seasons</th>
-             </tr>
-         </thead>
-         <tbody id="series"></tbody>
-     </table>
-    
+   <div class="row">
+    <div class="col-8">
+         <table class="table">
+             <thead class="thead-dark">
+                 <tr>
+                     <th>#</th>
+                     <th>Name</th>
+                     <th>Channel</th>
+                     <th>Seasons</th>
+                 </tr>
+             </thead>
+             <tbody id="series"></tbody>
+         </table>
+    </div>
+    <div class= "col" id="card-container" class="card-container"></div>
    </div>
    <p id="average-seasons"></p>
+
+   
 
 
     <script type="module" src="./scripts/Serie.js"></script>
